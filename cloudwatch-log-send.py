@@ -48,7 +48,7 @@ def send_logs_to_cloudwatch(log_group_name, log_streams):
             time.sleep(5)  # Delay for 5 seconds before sending logs from the next stream
 
 # Set the CloudWatch Logs group name
-log_group_name = 'log-group-kafka'
+log_group_name = 'log-group-name'
 
 # Set the log streams and their respective log file paths
 log_streams = {
