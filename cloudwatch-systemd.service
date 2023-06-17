@@ -3,7 +3,7 @@ Description=Kafka Cloud Watch Service
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /path/to/python/file
+ExecStart=/usr/bin/python3 /path/to/file/cw-multi-stream.py
 WorkingDirectory=/home/ubuntu
 User=ubuntu
 Group=ubuntu
