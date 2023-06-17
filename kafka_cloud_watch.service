@@ -1,0 +1,14 @@
+[Unit]
+Description=Kafka Cloud Watch Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/python/file
+WorkingDirectory=/home/ubuntu
+User=ubuntu
+Group=ubuntu
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
